@@ -1,0 +1,27 @@
+epochs:
+  value: 100
+  desc: "number training epochs"
+patience:
+  value: 5
+  desc: "early stopping patience"
+output_channels:
+  value: 59
+  desc: "output channe;s"
+hidden_channels_x:
+  value: 8
+  desc: "hidden channels x"
+hidden_channels_a:
+  value: 8
+  desc: "hidden channels a"
+use_time:
+  value: False
+  desc: "use time"
+latent_projection_augment:
+  value: False
+  desc: "use latent projection to augment data vector"
+sample_proportion:
+  value: 1
+  desc: "proportion of dataset to sample"
+batch_size:
+  value: 32
+  desc: "batch size"

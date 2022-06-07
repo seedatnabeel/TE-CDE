@@ -1,0 +1,16 @@
+black
+flake8==3.9.2
+Hawkes==1.0.0
+isort==5.9.2
+matplotlib==3.4.2
+numpy==1.21.1
+pandas==1.3.1
+pre-commit
+pre-commit-hooks==4.0.1
+PyYAML==6.0
+scipy==1.7.1
+torch==1.8.0
+torchcde @ git+https://github.com/patrick-kidger/torchcde.git@44836bfe347744f41e040918526b0af81c4dfb55
+torchmetrics==0.6.0
+tqdm==4.51.0
+wandb==0.10.30
