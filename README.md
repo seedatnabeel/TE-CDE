@@ -54,4 +54,6 @@ python main.py --data_path "/content/drive/MyDrive/Data/new_cancer_sim_4_4.p" --
 ```
 
 ## Data generation:
-We suggest generating a dataset and transforming it for ease of re-use. This can be done using these two commands ``[--save_raw_datapath]``and ``[--save_transformed_datapath]``, as well as, setting ``--use_transformed=False`` and not supplying a ``--data_path``. After which these datasets can be re-used to speed things up. Note that we have left the dataset generation as random, such that when you re-run it one can always get a different dataset. This might result in some variability in results depending on the dataset.
+We suggest generating a dataset and transforming it for ease of re-use. This can be done using these two commands ``[--save_raw_datapath]``and ``[--save_transformed_datapath]``, as well as, setting ``--use_transformed=False`` and not supplying a ``--data_path``. After which these datasets can be re-used to speed things up. Note that we have left the dataset generation as random, such that when you re-run it one can always get a different dataset. This might result in some variability in results depending on the dataset. Note these files by default are pickles and we provide write and read functions in ``src/utils/data_utils.py``.
+
+We suggest then mounting these datasets (raw or transformed) through Google Drive - where you can read the pickle by passing the ``--data_path``.
